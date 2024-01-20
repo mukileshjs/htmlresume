@@ -1,0 +1,38 @@
+img {
+    float: right;
+    margin-right: 50px; 
+    margin-top: 20px;
+}
+.head
+{
+    font-family:Bahnschrift;
+    size:10px;
+}
+th,td
+{
+    border:1px solid blue;
+    padding:10px;
+    
+}
+.class2
+{
+    font-family:Bahnschrift;
+    size:8px;
+    display: inline-grid;
+    grid-template-columns:repeat(2, 4fr);
+    gap:8px;
+}
+.s1
+{
+    align-items: center;
+    /* display:flex;  */
+    display: grid; 
+    grid-template-columns:repeat(2, 1fr); 
+    justify-content:space-between;
+    gap: 8px; 
+    background-color: cornsilk;
+}
+.items
+{
+    text-align:left;
+}
