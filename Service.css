@@ -1,0 +1,14 @@
+.service
+{
+    background-color:dimgray;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap:20px;
+    margin-top:15px;
+}
+
+.service1
+{
+    padding: 10px;
+    color:black;
+}
